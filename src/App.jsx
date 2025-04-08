@@ -1,9 +1,8 @@
-import { Routes, Route } from "react-router-dom"
-import { useState } from 'react'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import { useState } from 'react';
+import './App.css';
 
-function App() {
-
+export default function App() {
   return (
     <>
      <div id="container">
@@ -16,7 +15,6 @@ function App() {
       </div>
      </div>
     </>
-  )
+  );
 }
 
-export default App
